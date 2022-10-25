@@ -57,5 +57,3 @@ def paintImages(pathToImage):
     axs[2].set_title('contours')
 
     return
-
-paintImages("C:\\Users\\semen\\intelligent-placer\\images\\object1.jpg")
