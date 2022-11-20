@@ -30,7 +30,7 @@ def getMasks(image):
 def findImages(path):
     paths = []
 
-    for pTest in path.glob("*.png"):
+    for pTest in path.glob("*.jpg"):
         paths.append(pTest)
 
     return paths
