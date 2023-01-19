@@ -41,53 +41,49 @@
 * Предмет не должен сливаться с фоном
 
 
-## Изображения предметов
-
-[Исходные данные](https://github.com/semen200251/intelligent-placer/tree/develop/Фотки%20предметов)
-
 ## Тесты
 
-[Проверка на то что 1 маленький объект может поместиться в большой многоугольник](https://github.com/semen200251/intelligent-placer/blob/develop/Фотки%20тестов/test1.jpg)
-
-Ответ: true
-
-
-[Проверка на то что все имеющиеся объекты могут уложиться в наибольший (по площади) многоугольник](https://github.com/semen200251/intelligent-placer/blob/develop/Фотки%20тестов/test2.jpg)
-
-Ответ: false
-
-[Проверка на то что объект еле-еле но вмещается](https://github.com/semen200251/intelligent-placer/blob/develop/Фотки%20тестов/test3.jpg)
-
-Ответ: true
-
-[Проверка на то что объект уже не вмещается](https://github.com/semen200251/intelligent-placer/blob/develop/Фотки%20тестов/test4.jpg)
-
-Ответ: false
-
-[Проверка поведения при отсутствии многоугольника](https://github.com/semen200251/intelligent-placer/blob/develop/Фотки%20тестов/test5.jpg)
-
-Ответ: false
-
-[Проверка поведения при отсутствии объектов](https://github.com/semen200251/intelligent-placer/blob/develop/Фотки%20тестов/test6.jpg)
+[Проверка с тремя высокими объектами, которые помещаются](https://github.com/semen200251/intelligent-placer/blob/develop/tests/test1.jpg)
 
 Ответ: True
 
-[Проверка поведения при невыпуклом многоугольнике](https://github.com/semen200251/intelligent-placer/blob/develop/Фотки%20тестов/test7.jpg)
 
-Ответ: false
-
-[Проверка двух объектов, каждый по отдельности помещается, но вместе нет](https://github.com/semen200251/intelligent-placer/blob/develop/Фотки%20тестов/test8.jpg)
-
-Ответ: false
-
-[Проверка двух объектов, каждый по отдельности помещается, и вместе тоже](https://github.com/semen200251/intelligent-placer/blob/develop/Фотки%20тестов/test9.jpg)
+[Проверка на то что маленький объект еле-еле но вмещается](https://github.com/semen200251/intelligent-placer/blob/develop/tests/test2.jpg)
 
 Ответ: True
 
-[Проверка двух объектов, один помещается, а другой нет](https://github.com/semen200251/intelligent-placer/blob/develop/Фотки%20тестов/test10.jpg)
+[Проверка на то что объект не вмещается](https://github.com/semen200251/intelligent-placer/blob/develop/tests/test3.jpg)
 
-Ответ: false
+Ответ: False
 
-[Проверка двух объектов, оба не помещаются](https://github.com/semen200251/intelligent-placer/blob/develop/Фотки%20тестов/test11.jpg)
+[Проверка с не прямоугольником и несколькими уровнями](https://github.com/semen200251/intelligent-placer/blob/develop/tests/test4.jpg)
 
-Ответ: false
+Ответ: True
+
+[Проверка с не прямоугольником и одним уровнем](https://github.com/semen200251/intelligent-placer/blob/develop/tests/test5.jpg)
+
+Ответ: True
+
+[Проверка с двумя маленькими объектами в большой не прямоугольник](https://github.com/semen200251/intelligent-placer/blob/develop/tests/test6.jpg)
+
+Ответ: True
+
+[Проверка с прямоугольником и несколькими уровнями](https://github.com/semen200251/intelligent-placer/blob/develop/tests/test7.jpg)
+
+Ответ: True
+
+[Проверка с несколькими длинными объектами, расположенных под углом](https://github.com/semen200251/intelligent-placer/blob/develop/tests/test8.jpg)
+
+Ответ: True
+
+[Проверка двух объектов, один помещается, а другой нет](https://github.com/semen200251/intelligent-placer/blob/develop/tests/test9.jpg)
+
+Ответ: False
+
+[Проверка двух объектов, оба не помещаются](https://github.com/semen200251/intelligent-placer/blob/develop/tests/test10.jpg)
+
+Ответ: False
+
+[Проверка сильно непохожего на прямоугольник многоугольника](https://github.com/semen200251/intelligent-placer/blob/develop/tests/test11.jpg)
+
+Ответ: True
